@@ -1,4 +1,4 @@
-import { Card } from "@/components/ui/card"
+import { Card } from "@/components/ui/card";
 
 export function AboutSection() {
   return (
@@ -20,7 +20,9 @@ export function AboutSection() {
           {/* Content */}
           <div className="space-y-6">
             <div className="space-y-2">
-              <p className="text-primary font-semibold text-sm tracking-wider uppercase">Our Story</p>
+              <p className="text-primary font-semibold text-sm tracking-wider uppercase">
+                Our Story
+              </p>
               <h2 className="text-4xl lg:text-5xl font-bold text-foreground leading-tight text-balance">
                 Building a Legacy of Excellence
               </h2>
@@ -28,35 +30,47 @@ export function AboutSection() {
 
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
-                The Asandan Group stands as a testament to Cameroonian entrepreneurship, driven by a singular vision: to
-                build a diversified business empire that contributes substantially to the nation's economic growth and
-                stability. Our journey reflects the power of committed domestic investment, establishing a foundation
-                for innovation and scale across various vital sectors.
+                The Asandan Group was founded by Mr Asandan Vitalise, a
+                Cameroonian Entrepreneur with a drive for bringing change to his
+                economy. The Asandan Group stands as a testament to Cameroonian
+                entrepreneurship, driven by a singular vision: to build a
+                diversified business empire that contributes substantially to
+                the nation's economic growth and stability. Our journey reflects
+                the power of committed domestic investment, establishing a
+                foundation for innovation and scale across various vital
+                sectors.
               </p>
               <p>
-                Our roots are firmly planted in the foundational sectors of agriculture and livestock, with extensive,
-                high-quality operations in regions including Lum and Limbe. This foundational success in resource
-                management and production serves as the bedrock for our ambitious expansion plans.
+                Our roots are firmly planted in the foundational sectors of
+                agriculture and livestock, with extensive, high-quality
+                operations in regions including Lum and Limbe. This foundational
+                success in resource management and production serves as the
+                bedrock for our ambitious expansion plans.
               </p>
               <p>
-                Looking forward, we are spearheading strategic diversification into high-growth, high-value markets.
-                This includes the development of a flagship 5-Star Hotel, major residential property initiatives, and
-                the critical step of establishing international channels for Cameroonian commodity export, beginning
-                with cocoa and rubber.
+                Looking forward, we are spearheading strategic diversification
+                into high-growth, high-value markets. This includes the
+                development of a flagship 5-Star Hotel, major residential
+                property initiatives, and the critical step of establishing
+                international channels for Cameroonian commodity export,
+                beginning with cocoa and rubber.
               </p>
             </div>
 
             <Card className="bg-muted/50 border-primary/20 p-6">
               <p className="text-foreground font-semibold text-lg italic leading-relaxed text-pretty">
-                "Our expansion is not merely about growth; it is about establishing a lasting legacy of excellence,
-                creating sustainable opportunities, and positioning the Asandan Group as a key player in Central
-                Africa's next era of development."
+                "Our expansion is not merely about growth; it is about
+                establishing a lasting legacy of excellence, creating
+                sustainable opportunities, and positioning the Asandan Group as
+                a key player in Central Africa's next era of development."
               </p>
-              <p className="text-muted-foreground mt-3 font-medium">— Asandan Group Leadership</p>
+              <p className="text-muted-foreground mt-3 font-medium">
+                — Asandan Group Leadership
+              </p>
             </Card>
           </div>
         </div>
       </div>
     </section>
-  )
+  );
 }

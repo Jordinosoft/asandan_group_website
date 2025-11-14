@@ -94,7 +94,7 @@ export function ContactSection() {
                 <div>
                   <h3 className="font-bold text-foreground mb-2">Phone</h3>
                   <p className="text-muted-foreground text-sm">
-                    +237 XXX XXX XXX
+                    +237 670 784 242 / +1 (283) 212-1053
                   </p>
                 </div>
               </CardContent>
